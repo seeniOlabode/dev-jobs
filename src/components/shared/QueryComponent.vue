@@ -155,7 +155,6 @@ export default {
       if (window.innerWidth > 639) {
         this.closeModal(true);
       }
-      console.log(this.modalValue);
     },
   },
 };
