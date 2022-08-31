@@ -9,7 +9,6 @@ const createCallBack = (title, location, contract) => {
     let contractPass;
     title = title.rtrim();
     location = location.rtrim();
-    contract = contract.rtrim();
     if (title === "*") {
       titlePass = true;
     } else {

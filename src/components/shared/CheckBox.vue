@@ -20,7 +20,6 @@ export default {
   emits: ["update:modelValue"],
   methods: {
     emitValue($event) {
-      console.log($event.target.checked, $event.target);
       this.$emit("update:modelValue", $event.target.checked);
     },
   },

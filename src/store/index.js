@@ -101,7 +101,6 @@ const Jobs = {
         commit("setJobsLoading", false);
         if (filteredArray.length < 1) {
           commit("setDisplayedJobsEmpty", true);
-          console.log(filteredArray);
         }
       }, 1000);
     },

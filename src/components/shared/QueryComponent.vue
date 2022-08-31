@@ -152,7 +152,6 @@ export default {
     },
     onResize() {
       this.windowWidth = window.innerWidth;
-      console.log(window.innerWidth);
       if (window.innerWidth > 639) {
         this.closeModal(true);
       }
