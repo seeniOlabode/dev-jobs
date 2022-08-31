@@ -1,8 +1,15 @@
+String.prototype.rtrim = function () {
+  return this.replace(/((\s*\S+)*)\s*/, "$1");
+};
+
 const createCallBack = (title, location, contract) => {
   return (job) => {
     let titlePass;
     let locationPass;
     let contractPass;
+    title = title.rtrim();
+    location = location.rtrim();
+    contract = contract.rtrim();
     if (title === "*") {
       titlePass = true;
     } else {
