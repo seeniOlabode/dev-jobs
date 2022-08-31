@@ -17,7 +17,7 @@
       </div>
       <h1
         @click="$router.push(`/job-detail/${job.id}`)"
-        class="dark:text-dev-jobs-white text-dev-jobs-very-dark-blue font-bold text-xl mt-3 w-full cursor-pointer hover:text-dev-jobs-dark-grey"
+        class="dark:text-dev-jobs-white dark:hover:text-dev-jobs-grey text-dev-jobs-very-dark-blue font-bold text-xl mt-3 w-full cursor-pointer hover:text-dev-jobs-dark-grey"
       >
         {{ job.position }}
       </h1>
